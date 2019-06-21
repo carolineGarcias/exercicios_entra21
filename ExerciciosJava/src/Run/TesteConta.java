@@ -52,15 +52,13 @@ public class TesteConta {
 	
 		System.out.println("Cliente: "+ Cliente1.clt_nm + "\n" + "Conta: " + Cliente1.cd_clt + 
 						   "\n" + "Número Cartão: " + Cartao1.numb_cartao + 
-						   "\n" + "Data de validade: " + Cartao1.dt_valid +
-						   "\n" + "Número Agencia: " + Agencia1.numb_ag);
+						   "\n" + "Data de validade: " + Cartao1.dt_valid);
 		NewConta1.RunExtrato();
 		
-		System.out.println("________________________________________________________________ ");
+		System.out.println(" ");
 		System.out.println("Cliente: "+ Cliente2.clt_nm + "\n" + "Conta: " + Cliente2.cd_clt +
 						   "\n" + "Número Cartão: " + Cartao2.numb_cartao + 
-						   "\n" + "Data de validade: " + Cartao2.dt_valid +
-						   "\n" + "Número Agência: " + Agencia2.numb_ag);
+						   "\n" + "Data de validade: " + Cartao2.dt_valid);
 		NewConta2.RunExtrato();
 		
 	}
